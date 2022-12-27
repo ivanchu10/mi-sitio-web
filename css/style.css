@@ -1,0 +1,264 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  border: 0;
+}
+
+
+ h2{
+  padding: 5px 0;
+  text-align: center;
+  background: #ffcc00;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background:#000;
+  border: 1px solid #18002e
+  
+}
+
+nav ul{
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+  list-style: none;
+}
+
+nav ul li{
+padding: 10px 20px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  font-family:'Roboto', sans-serif;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li a:hover{
+  background: #ffcc00;
+  transition: 0.9s;
+}
+
+.search__container {
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: white;
+  font-family:'Roboto', sans-serif;
+  display: flex;justify-content: center;
+}
+
+.search__input {
+  width: 50%;
+  padding: 12px 12px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575756;
+  background-color: transparent; 
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+        
+.search__input{
+  color: color(#0f0f0f a(0.8));
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+               
+.search__input:hover {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ffcc00;
+  border-radius: 0;
+  background-position: 100% center;
+}
+
+.sneakers{
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+}
+
+.sneakers img{
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+
+ .sneakers img:hover {
+  transform: scale(1.1); 
+}
+
+.sneakers p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1px;
+  padding: 2px;
+  display: inline-block;
+}
+
+.sneakers div{
+  display: inline-block;
+}
+
+.sneakers button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 1px;
+  border-radius: 6px;
+  transition: all 0.20s linear;
+  -webkit-transition: all 0.20s linear;
+  -moz-transition: all 0.20s linear;
+  position: relative;
+  bottom: 0;
+}
+
+button:hover{
+  background: #ffcc00;
+}
+
+button:active{
+	bottom: -1px;
+}
+
+section {
+  background: black;
+  color: #ffcc00;
+  margin-top: 10px;
+  padding: 10px 0;      
+}
+
+ section ul {
+  padding: 0; 
+  margin-top: 30px;
+  list-style: none; 
+  display: flex; justify-content: center;
+}
+
+section p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 15px 0 30px;
+  position: relative;
+}
+
+section h6 {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+section span {
+  color: #ffcc00;
+  margin: 0 10px;
+}
+
+section ul img{
+  width: 25px;
+  height: auto;
+  margin-left: 8px;
+  margin-bottom: 25px;
+}
+
+section ul li a {
+  border: 1px solid #8b9199;
+  color: #8b9199;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 7px;
+  transition: all 0.4s ease 0s;
+  width: 40px;
+}
+
+section ul li a:hover {
+  border: 1px solid #f4f4f3;
+  color: #FAB702;
+}
+
+footer {
+  padding: 5px 0;
+  text-align: center;
+  background: #ffcc00;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+@media( max-width: 720px){
+  h2{
+    display: none;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .search__input{
+    width:50%;
+  }
+  .sneakers img{
+    width: 150px;
+    height: auto;
+  }
+  .sneakers{
+  font-size: 12px;
+  font-weight: 700;
+  }
+}
+
+@media ( max-width: 626px){
+  nav ul li a{
+    font-size: 24px;
+  }
+  nav ul{
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+    } 
+  .search__input{
+    width:50%;
+  }
+  .sneakers img{
+    width: 150px;
+    height: auto;
+  }
+  .sneakers{
+  font-size: 12px;
+  font-weight: 700;
+  }
+}

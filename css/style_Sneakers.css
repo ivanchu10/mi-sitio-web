@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+  
+  body {
+    margin: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    border: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: auto;
+    background:#000;
+    border: 1px solid #18002e
+    
+}
+  
+  nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+  
+  nav ul li{
+  padding: 10px 20px;
+}
+  
+  nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+  li a:hover{
+    background: #ffcc00;
+    transition: 0.9s;
+}
+
+.galeria{
+    display: inline-block;
+    
+}
+
+.galeria img{
+    width: 20%;
+    height: auto;
+    padding: 2px;
+    margin: 8px 32px;
+    text-align: center;
+}
+
+section {
+    background: black;
+    color: #ffcc00;
+    margin-top: 10px;
+    padding: 10px 0;      
+}
+  
+   section ul {
+    padding: 0; 
+    margin-top: 30px;
+    list-style: none; 
+    display: flex; justify-content: center;
+}
+  
+  section p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 15px 0 30px;
+    position: relative;
+}
+  
+  section h6 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+  
+  section span {
+    color: #ffcc00;
+    margin: 0 10px;
+}
+  
+  section ul img{
+    width: 25px;
+    height: auto;
+    margin-left: 8px;
+    margin-bottom: 25px;
+}
+  
+  section ul li a {
+    border: 1px solid #8b9199;
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+  
+  section ul li a:hover {
+    border: 1px solid #f4f4f3;
+    color: #FAB702;
+}
+  
+  footer {
+    padding: 5px 0;
+    text-align: center;
+    background: #ffcc00;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
